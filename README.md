@@ -5,7 +5,6 @@ Below are the commanly used git commands
 
 ## First Step:
   `Navigate to the folder you want or execute the below command.`
-  
   Steps: 
     
       1. md NewRepo
@@ -13,7 +12,25 @@ Below are the commanly used git commands
       3. start . (It will open the window in explorer)
       4. Right click and select "GIT GUI Bash Here"
 
-## Initialize Repository:
+## Help:
+    git help
+
+## Config:
+    git config --global user.name "SriniVasanB"
+    git config --global user.email "sritechnoo@gmail.com"
+    git config -l
+    git config --global --unset user.password 
+
+## Remove files not managed by Git.:
+    git clean -df 
+    git clean -df 
+    git -n clean 
+    git -dn clean
+
+## Cloning Remote Repository (Creates a local copy of remote repostiory):
+    git clone ssh://git@github.com/<User_Name>/<Repo_Name>.git
+
+## Initialize Local Repository:
     git init <Repo_Name>
 
 ## Check Status:
@@ -35,6 +52,10 @@ Below are the commanly used git commands
 ## View Commit History:
     git log
     git log --summary
+    git log --oneline 
+    git log directory/path/file 
+    git log --author="name" 
+    git log --graph --decorate --oneline
 
 ## Branching:
   ### List Branch (local only):
