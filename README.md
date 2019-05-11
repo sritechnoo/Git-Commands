@@ -91,8 +91,9 @@ Below are the commanly used git commands
     3. git remote add origin https://github.com/<User_Name>/<Repository_Name>.git
     4. git remote
     5. git push -u origin <Branch_Name> (For Master: git push -u origin master)
-    6. It's prompt for Remote UserName and Password.
+    6. It's prompt for Remote Server UserName and Password.then it commits.
 
 ## Pull From Remote to Local Repository
     git pull <remote> master E.g: git pull origin master
 
+    
