@@ -96,4 +96,8 @@ Below are the commanly used git commands
 ## Pull From Remote to Local Repository
     git pull <remote> master E.g: git pull origin master
 
+## Close the EditMessage Windwo
+    shift + :
+    wq
+
     
