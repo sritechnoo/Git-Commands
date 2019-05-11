@@ -35,6 +35,15 @@ Below are the commanly used git commands
 
 ## Check Status:
     git status
+    
+    ## Check Status
+    git ls-files --stage 
+    git ls-files --cached 
+    git ls-files --modified 
+    git ls-files --others 
+    git ls-files --deleted 
+    git ls-files --unmerged 
+    git ls-files --killed 
 
 ## Add files from UnTrack Area to Staging Area:
     git add README.md
@@ -72,3 +81,15 @@ Below are the commanly used git commands
     git checkout -b <Branch_Name>      
   ### Merging from branch:
     git merge <Branch_Name>
+    git merge <Source_Branch_Name> <Target_Branch_Name>
+
+
+## Add Local Repository to Remote:    
+    1. Create a Empty Repo in the remote Server
+    2. Copy the HTTPS Url from server.
+
+    git remote add origin https://github.com/<User_Name>/<Repository_Name>.git
+
+    git remote
+
+    git push -u origin <Branch_Name>, for Master git push -u origin master
