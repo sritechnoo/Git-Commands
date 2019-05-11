@@ -42,11 +42,12 @@ Below are the commanly used git commands
   ### List all Branch (remote and local):
     git branch -a 
   ### Create a Branch:
-    git branch <BranchName> 
+    git branch <Branch_Name> 
   ### Delete a Branch:
-    git branch -d <BranchName> 
+    git branch -d <Branch_Name> 
   ### Switch to a Branch:
-    git checkout <BranchName>     
-
+    git checkout <Branch_Name>     
   ### Create and Switch to a Branch:
-    git checkout -b <BranchName>      
+    git checkout -b <Branch_Name>      
+  ### Merging from branch:
+    git merge <Branch_Name>
