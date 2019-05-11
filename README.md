@@ -47,3 +47,6 @@ Below are the commanly used git commands
     git branch -d <BranchName> 
   ### Switch to a Branch:
     git checkout <BranchName>     
+
+  ### Create and Switch to a Branch:
+    git checkout -b <BranchName>      
