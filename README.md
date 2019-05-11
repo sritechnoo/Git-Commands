@@ -88,8 +88,7 @@ Below are the commanly used git commands
     1. Create a Empty Repo in the remote Server
     2. Copy the HTTPS Url from server.
 
-    git remote add origin https://github.com/<User_Name>/<Repository_Name>.git
-
-    git remote
-
-    git push -u origin <Branch_Name>, for Master git push -u origin master
+    3. git remote add origin https://github.com/<User_Name>/<Repository_Name>.git
+    4. git remote
+    5. git push -u origin <Branch_Name> (For Master: git push -u origin master)
+    6. It's prompt for Remote UserName and Password.
