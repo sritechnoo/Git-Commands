@@ -35,3 +35,15 @@ Below are the commanly used git commands
 ## View Commit History:
     git log
     git log --summary
+
+## Branching:
+  ### List Branch (local only):
+    git branch 
+  ### List all Branch (remote and local):
+    git branch -a 
+  ### Create a Branch:
+    git branch <BranchName> 
+  ### Delete a Branch:
+    git branch -d <BranchName> 
+  ### Switch to a Branch:
+    git checkout <BranchName>     
