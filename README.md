@@ -84,7 +84,7 @@ Below are the commanly used git commands
     git merge <Source_Branch_Name> <Target_Branch_Name>
 
 
-## Add Local Repository to Remote:    
+## Pushing Local Repository to Remote:    
     1. Create a Empty Repo in the remote Server
     2. Copy the HTTPS Url from server.
 
@@ -92,3 +92,7 @@ Below are the commanly used git commands
     4. git remote
     5. git push -u origin <Branch_Name> (For Master: git push -u origin master)
     6. It's prompt for Remote UserName and Password.
+
+## Pull From Remote to Local Repository
+    git pull <remote> master E.g: git pull origin master
+
